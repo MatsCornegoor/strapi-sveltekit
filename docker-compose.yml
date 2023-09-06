@@ -57,6 +57,16 @@ services:
       - strapi
     depends_on:
       - postgresDB
+
+  app:
+    container_name: app
+    build: ./app
+    image: myapp:latest
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "3000:3000"
+
       
 volumes:
     strapi-data:
