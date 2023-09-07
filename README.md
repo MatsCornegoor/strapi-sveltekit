@@ -10,7 +10,7 @@
    > This command will run a Postgresql server docker container and then locally run your Strapi Server for your development requirements.
 
 2. In a new terminal window, run `npm --prefix app run dev`
-   > This command will run a Postgresql server docker container and then locally run your Strapi Server for your development requirements.
+   > This command will run the sveltekit dev server.
 
 
 Strapi `http://localhost:1337`
